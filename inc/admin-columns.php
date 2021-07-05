@@ -37,7 +37,7 @@ add_filter( 'manage_' . POSTTYPE . '_posts_columns', __NAMESPACE__ . '\column_or
  */
 function set_admin_column_list( $columns ) {
 	$columns['modified']  = __( 'Last modified', 'kebbet-cpt-supporters' );
-	$columns['thumbnail'] = __( 'Featured image', 'kebbet-cpt-supporters' );
+	$columns['thumbnail'] = __( 'Supporter logo', 'kebbet-cpt-supporters' );
 	return $columns;
 }
 add_filter( 'manage_' . POSTTYPE . '_posts_columns', __NAMESPACE__ . '\set_admin_column_list' );

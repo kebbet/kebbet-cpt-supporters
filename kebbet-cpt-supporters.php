@@ -72,44 +72,40 @@ function register() {
 		'name'                     => _x( 'Supporters', 'Post Type General Name', 'kebbet-cpt-supporters' ),
 		'singular_name'            => _x( 'Supporter', 'Post Type Singular Name', 'kebbet-cpt-supporters' ),
 		'menu_name'                => __( 'Supporters', 'kebbet-cpt-supporters' ),
-		'name_admin_bar'           => __( 'Supporters post', 'kebbet-cpt-supporters' ),
-		'parent_item_colon'        => __( 'Parent post:', 'kebbet-cpt-supporters' ),
-		'all_items'                => __( 'All posts', 'kebbet-cpt-supporters' ),
-		'add_new_item'             => __( 'Add new', 'kebbet-cpt-supporters' ),
-		'add_new'                  => __( 'Add new post', 'kebbet-cpt-supporters' ),
-		'new_item'                 => __( 'New post', 'kebbet-cpt-supporters' ),
-		'edit_item'                => __( 'Edit post', 'kebbet-cpt-supporters' ),
-		'update_item'              => __( 'Update post', 'kebbet-cpt-supporters' ),
-		'view_item'                => __( 'View post', 'kebbet-cpt-supporters' ),
-		'view_items'               => __( 'View posts', 'kebbet-cpt-supporters' ),
-		'search_items'             => __( 'Search posts', 'kebbet-cpt-supporters' ),
+		'name_admin_bar'           => __( 'Supporter', 'kebbet-cpt-supporters' ),
+		'all_items'                => __( 'All supporters', 'kebbet-cpt-supporters' ),
+		'add_new_item'             => __( 'New supporter', 'kebbet-cpt-supporters' ),
+		'add_new'                  => __( 'Add new supporter', 'kebbet-cpt-supporters' ),
+		'new_item'                 => __( 'New supporter', 'kebbet-cpt-supporters' ),
+		'edit_item'                => __( 'Edit supporter', 'kebbet-cpt-supporters' ),
+		'update_item'              => __( 'Update supporter', 'kebbet-cpt-supporters' ),
+		'view_item'                => __( 'View supporter', 'kebbet-cpt-supporters' ),
+		'view_items'               => __( 'View supporters', 'kebbet-cpt-supporters' ),
+		'search_items'             => __( 'Search supporters', 'kebbet-cpt-supporters' ),
 		'not_found'                => __( 'Not found', 'kebbet-cpt-supporters' ),
-		'not_found_in_trash'       => __( 'No posts found in Trash', 'kebbet-cpt-supporters' ),
-		'featured_image'           => __( 'Featured image', 'kebbet-cpt-supporters' ),
-		'set_featured_image'       => __( 'Set featured image', 'kebbet-cpt-supporters' ),
-		'remove_featured_image'    => __( 'Remove featured image', 'kebbet-cpt-supporters' ),
-		'use_featured_image'       => __( 'Use as featured image', 'kebbet-cpt-supporters' ),
+		'not_found_in_trash'       => __( 'No supporters found in Trash', 'kebbet-cpt-supporters' ),
+		'featured_image'           => __( 'Supporter logo', 'kebbet-cpt-supporters' ),
+		'set_featured_image'       => __( 'Set supporter logo', 'kebbet-cpt-supporters' ),
+		'remove_featured_image'    => __( 'Remove supporter logo', 'kebbet-cpt-supporters' ),
+		'use_featured_image'       => __( 'Use as supporter logo', 'kebbet-cpt-supporters' ),
 		'insert_into_item'         => __( 'Insert into item', 'kebbet-cpt-supporters' ),
-		'uploaded_to_this_item'    => __( 'Uploaded to this post', 'kebbet-cpt-supporters' ),
+		'uploaded_to_this_item'    => __( 'Uploaded to this supporter', 'kebbet-cpt-supporters' ),
 		'items_list'               => __( 'Items list', 'kebbet-cpt-supporters' ),
 		'items_list_navigation'    => __( 'Items list navigation', 'kebbet-cpt-supporters' ),
 		'filter_items_list'        => __( 'Filter items list', 'kebbet-cpt-supporters' ),
-		'archives'                 => __( 'Supporters posts archive', 'kebbet-cpt-supporters' ),
-		'attributes'               => __( 'Supporters post attributes', 'kebbet-cpt-supporters' ),
-		'item_published'           => __( 'Post published', 'kebbet-cpt-supporters' ),
-		'item_published_privately' => __( 'Post published privately', 'kebbet-cpt-supporters' ),
-		'item_reverted_to_draft'   => __( 'Post reverted to Draft', 'kebbet-cpt-supporters' ),
-		'item_scheduled'           => __( 'Post scheduled', 'kebbet-cpt-supporters' ),
-		'item_updated'             => __( 'Post updated', 'kebbet-cpt-supporters' ),
+		'item_published'           => __( 'Supporter published', 'kebbet-cpt-supporters' ),
+		'item_published_privately' => __( 'Supporter published privately', 'kebbet-cpt-supporters' ),
+		'item_reverted_to_draft'   => __( 'Supporter reverted to Draft', 'kebbet-cpt-supporters' ),
+		'item_scheduled'           => __( 'Supporter scheduled', 'kebbet-cpt-supporters' ),
+		'item_updated'             => __( 'Supporter updated', 'kebbet-cpt-supporters' ),
 		// 5.7 + 5.8
-		'filter_by_date'           => __( 'Filter posts by date', 'kebbet-cpt-supporters' ),
+		'filter_by_date'           => __( 'Filter supporters by date', 'kebbet-cpt-supporters' ),
 		'item_link'                => __( 'Supporters post link', 'kebbet-cpt-supporters' ),
 		'item_link_description'    => __( 'A link to a supporters post', 'kebbet-cpt-supporters' ),
 	);
 
 	$supports_args = array(
 		'title',
-		'page-attributes',
 	);
 
 	if ( true === THUMBNAIL ) {
@@ -197,21 +193,21 @@ function post_updated_messages( $messages ) {
 
 	$messages[ POSTTYPE ] = array(
 		0  => '',
-		1  => __( 'Post updated.', 'kebbet-cpt-supporters' ),
+		1  => __( 'Supporter updated.', 'kebbet-cpt-supporters' ),
 		2  => __( 'Custom field updated.', 'kebbet-cpt-supporters' ),
 		3  => __( 'Custom field deleted.', 'kebbet-cpt-supporters' ),
-		4  => __( 'Post updated.', 'kebbet-cpt-supporters' ),
+		4  => __( 'Supporter updated.', 'kebbet-cpt-supporters' ),
 		/* translators: %s: date and time of the revision */
-		5  => isset( $_GET['revision'] ) ? sprintf( __( 'Post restored to revision from %s', 'kebbet-cpt-supporters' ), wp_post_revision_title( (int) $_GET['revision'], false ) ) : false,
-		6  => __( 'Post published.', 'kebbet-cpt-supporters' ),
-		7  => __( 'Post saved.', 'kebbet-cpt-supporters' ),
-		8  => __( 'Post submitted.', 'kebbet-cpt-supporters' ),
+		5  => isset( $_GET['revision'] ) ? sprintf( __( 'Supporter restored to revision from %s', 'kebbet-cpt-supporters' ), wp_post_revision_title( (int) $_GET['revision'], false ) ) : false,
+		6  => __( 'Supporter published.', 'kebbet-cpt-supporters' ),
+		7  => __( 'Supporter saved.', 'kebbet-cpt-supporters' ),
+		8  => __( 'Supporter submitted.', 'kebbet-cpt-supporters' ),
 		9  => sprintf(
 			/* translators: %1$s: date and time of the scheduled post */
-			__( 'Post scheduled for: <strong>%1$s</strong>.', 'kebbet-cpt-supporters' ),
+			__( 'Supporter scheduled for: <strong>%1$s</strong>.', 'kebbet-cpt-supporters' ),
 			date_i18n( __( 'M j, Y @ G:i', 'kebbet-cpt-supporters' ), strtotime( $post->post_date ) )
 		),
-		10 => __( 'Post draft updated.', 'kebbet-cpt-supporters' ),
+		10 => __( 'Supporter draft updated.', 'kebbet-cpt-supporters' ),
 	);
 	if ( $post_type_object->publicly_queryable && POSTTYPE === $post_type ) {
 
@@ -219,13 +215,13 @@ function post_updated_messages( $messages ) {
 		$view_link         = sprintf(
 			' <a href="%s">%s</a>',
 			esc_url( $permalink ),
-			__( 'View Post', 'kebbet-cpt-supporters' )
+			__( 'View Supporter', 'kebbet-cpt-supporters' )
 		);
 		$preview_permalink = add_query_arg( 'preview', 'true', $permalink );
 		$preview_link      = sprintf(
 			' <a target="_blank" href="%s">%s</a>',
 			esc_url( $preview_permalink ),
-			__( 'Preview Post', 'kebbet-cpt-supporters' )
+			__( 'Preview Supporter', 'kebbet-cpt-supporters' )
 		);
 
 		$messages[ $post_type ][1]  .= $view_link;
