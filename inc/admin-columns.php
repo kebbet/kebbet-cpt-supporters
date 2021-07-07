@@ -36,7 +36,6 @@ add_filter( 'manage_' . POSTTYPE . '_posts_columns', __NAMESPACE__ . '\column_or
  * @param array $columns The existing columns.
  */
 function set_admin_column_list( $columns ) {
-	$columns['modified']  = __( 'Last modified', 'kebbet-cpt-supporters' );
 	$columns['thumbnail'] = __( 'Supporter logo', 'kebbet-cpt-supporters' );
 	return $columns;
 }
@@ -50,19 +49,12 @@ add_filter( 'manage_' . POSTTYPE . '_posts_columns', __NAMESPACE__ . '\set_admin
  */
 function populate_custom_columns( $column, $post_id ) {
 	
-	if ( 'modified' === $column ) {
-		$format   = get_option( 'date_format' ) . ' ' . get_option( 'time_format' );
-		$modified = get_the_modified_date( $format );
-		if ( $modified ) {
-			echo $modified;
-		}
-	}
 	if ( 'thumbnail' === $column ) {
 		$thumbnail = get_the_post_thumbnail(
 			$post_id,
 			'thumbnail',
 			array(
-				'style' => 'max-width: 80px; height: auto;',
+				'style' => 'width:100%;max-width:200px;height: auto',
 			)
 		);
 		if ( $thumbnail ) {
@@ -74,13 +66,10 @@ function populate_custom_columns( $column, $post_id ) {
 }
 add_action( 'manage_' . POSTTYPE . '_posts_custom_column', __NAMESPACE__ . '\populate_custom_columns', 10, 2 );
 
-/**
- * Make additional admin column sortable.
- *
- * @param array $columns The existing columns.
- */
-function define_admin_sortable_columns( $columns ) {
-	$columns['modified'] = 'modified';
-	return $columns;
+function column_widths() {
+	global $current_screen;
+    if ( 'edit-' . POSTTYPE === $current_screen->id ) {
+        ?><style type="text/css">.manage-column.column-thumbnail,.fixed .manage-column.column-date {width:28%}</style><?php
+    }
 }
-add_filter( 'manage_edit-' . POSTTYPE . '_sortable_columns', __NAMESPACE__ . '\define_admin_sortable_columns' );
+add_action( 'admin_head', __NAMESPACE__ . '\column_widths');
