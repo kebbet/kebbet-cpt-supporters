@@ -134,7 +134,7 @@ function register() {
 		'menu_position'       => MENUPOS,
 		'menu_icon'           => 'dashicons-' . ICON,
 		'show_in_admin_bar'   => true,
-		'show_in_nav_menus'   => true,
+		'show_in_nav_menus'   => false,
 		'can_export'          => true,
 		'has_archive'         => false,
 		'exclude_from_search' => true,
