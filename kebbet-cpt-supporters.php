@@ -6,6 +6,7 @@
  * Version:     20210705.01
  * Author:      Erik Betshammar
  * Author URI:  https://verkan.se
+ * Update URI:  false
  *
  * @package kebbet-cpt-supporters
  * @author Erik Betshammar
