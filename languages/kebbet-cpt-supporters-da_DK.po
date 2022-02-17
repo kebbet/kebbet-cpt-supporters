@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kebbet plugins - Custom Post Type: Supporters\n"
-"POT-Creation-Date: 2021-07-05 10:50+0200\n"
-"PO-Revision-Date: 2021-07-05 10:52+0200\n"
+"POT-Creation-Date: 2022-02-17 09:22+0100\n"
+"PO-Revision-Date: 2022-02-17 09:57+0100\n"
 "Last-Translator: Erik Betshammar <info@verkan.se>\n"
 "Language-Team: Erik Betshammar <info@verkan.se>\n"
 "Language: da_DK\n"
@@ -21,15 +21,11 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
-#: inc/admin-columns.php:39
-msgid "Last modified"
-msgstr "Sidst ændret"
-
-#: inc/admin-columns.php:40 kebbet-cpt-supporters.php:87
+#: inc/admin-columns.php:39 kebbet-cpt-supporters.php:88
 msgid "Supporter logo"
 msgstr "Supporterlogo"
 
-#: inc/admin-columns.php:71
+#: inc/admin-columns.php:63
 msgid "No image is set."
 msgstr "Der er ikke angivet noget billede."
 
@@ -38,231 +34,236 @@ msgstr "Der er ikke angivet noget billede."
 #, php-format
 msgid "%s supporters post"
 msgid_plural "%s supporters posts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s suppporter indlæg"
+msgstr[1] "%s suppporter indlæg"
 
-#: kebbet-cpt-supporters.php:72
+#: kebbet-cpt-supporters.php:73
 msgctxt "Post Type General Name"
 msgid "Supporters"
 msgstr ""
 
-#: kebbet-cpt-supporters.php:73
+#: kebbet-cpt-supporters.php:74
 msgctxt "Post Type Singular Name"
 msgid "Supporter"
 msgstr ""
 
-#: kebbet-cpt-supporters.php:74
+#: kebbet-cpt-supporters.php:75
 msgid "Supporters"
 msgstr ""
 
-#: kebbet-cpt-supporters.php:75
+#: kebbet-cpt-supporters.php:76
 msgid "Supporter"
 msgstr ""
 
-#: kebbet-cpt-supporters.php:76
+#: kebbet-cpt-supporters.php:77
 msgid "All supporters"
 msgstr "Alle supporters"
 
-#: kebbet-cpt-supporters.php:77 kebbet-cpt-supporters.php:79
+#: kebbet-cpt-supporters.php:78 kebbet-cpt-supporters.php:80
 msgid "New supporter"
 msgstr "Ny supporter"
 
-#: kebbet-cpt-supporters.php:78
+#: kebbet-cpt-supporters.php:79
 msgid "Add new supporter"
 msgstr "Tilføj ny supporter"
 
-#: kebbet-cpt-supporters.php:80
+#: kebbet-cpt-supporters.php:81
 msgid "Edit supporter"
 msgstr "Rediger supporter"
 
-#: kebbet-cpt-supporters.php:81
+#: kebbet-cpt-supporters.php:82
 msgid "Update supporter"
 msgstr "Opdater supporter"
 
-#: kebbet-cpt-supporters.php:82
+#: kebbet-cpt-supporters.php:83
 msgid "View supporter"
 msgstr "Se supporter"
 
-#: kebbet-cpt-supporters.php:83
+#: kebbet-cpt-supporters.php:84
 msgid "View supporters"
 msgstr "Se supporters"
 
-#: kebbet-cpt-supporters.php:84
+#: kebbet-cpt-supporters.php:85
 msgid "Search supporters"
 msgstr "Søg efter supporters"
 
-#: kebbet-cpt-supporters.php:85
+#: kebbet-cpt-supporters.php:86
 msgid "Not found"
 msgstr "Ikke fundet"
 
-#: kebbet-cpt-supporters.php:86
+#: kebbet-cpt-supporters.php:87
 msgid "No supporters found in Trash"
 msgstr "Der blev ikke fundet nogen supporters i papirkurven"
 
-#: kebbet-cpt-supporters.php:88
+#: kebbet-cpt-supporters.php:89
 msgid "Set supporter logo"
 msgstr "Angiv supporterlogo"
 
-#: kebbet-cpt-supporters.php:89
+#: kebbet-cpt-supporters.php:90
 msgid "Remove supporter logo"
 msgstr "Fjern supporterlogo"
 
-#: kebbet-cpt-supporters.php:90
+#: kebbet-cpt-supporters.php:91
 msgid "Use as supporter logo"
 msgstr "Brug som supporterlogo"
 
-#: kebbet-cpt-supporters.php:91
+#: kebbet-cpt-supporters.php:92
 msgid "Insert into item"
 msgstr ""
 
-#: kebbet-cpt-supporters.php:92
+#: kebbet-cpt-supporters.php:93
 msgid "Uploaded to this supporter"
 msgstr "Overført til denne supporter"
 
-#: kebbet-cpt-supporters.php:93
+#: kebbet-cpt-supporters.php:94
 msgid "Items list"
 msgstr ""
 
-#: kebbet-cpt-supporters.php:94
+#: kebbet-cpt-supporters.php:95
 msgid "Items list navigation"
 msgstr ""
 
-#: kebbet-cpt-supporters.php:95
+#: kebbet-cpt-supporters.php:96
 msgid "Filter items list"
 msgstr ""
 
-#: kebbet-cpt-supporters.php:96
+#: kebbet-cpt-supporters.php:97
 msgid "Supporter published"
 msgstr ""
 
-#: kebbet-cpt-supporters.php:97
+#: kebbet-cpt-supporters.php:98
 msgid "Supporter published privately"
 msgstr ""
 
-#: kebbet-cpt-supporters.php:98
+#: kebbet-cpt-supporters.php:99
 msgid "Supporter reverted to Draft"
 msgstr ""
 
-#: kebbet-cpt-supporters.php:99
+#: kebbet-cpt-supporters.php:100
 msgid "Supporter scheduled"
 msgstr ""
 
-#: kebbet-cpt-supporters.php:100
+#: kebbet-cpt-supporters.php:101
 msgid "Supporter updated"
 msgstr ""
 
-#: kebbet-cpt-supporters.php:102
+#: kebbet-cpt-supporters.php:103
 msgid "Filter supporters by date"
 msgstr ""
 
-#: kebbet-cpt-supporters.php:103
+#: kebbet-cpt-supporters.php:104
 msgid "Supporters post link"
 msgstr ""
 
-#: kebbet-cpt-supporters.php:104
+#: kebbet-cpt-supporters.php:105
 msgid "A link to a supporters post"
 msgstr ""
 
-#: kebbet-cpt-supporters.php:125
+#: kebbet-cpt-supporters.php:126
 msgid "Supporters post type"
 msgstr ""
 
-#: kebbet-cpt-supporters.php:126
+#: kebbet-cpt-supporters.php:127
 msgid "Custom post type for Supporters"
 msgstr ""
 
-#: kebbet-cpt-supporters.php:196 kebbet-cpt-supporters.php:199
+#: kebbet-cpt-supporters.php:197 kebbet-cpt-supporters.php:200
 msgid "Supporter updated."
-msgstr ""
-
-#: kebbet-cpt-supporters.php:197
-msgid "Custom field updated."
-msgstr ""
+msgstr "Supporter opdateret."
 
 #: kebbet-cpt-supporters.php:198
+msgid "Custom field updated."
+msgstr "Brugerdefineret felt opdateret."
+
+#: kebbet-cpt-supporters.php:199
 msgid "Custom field deleted."
-msgstr ""
+msgstr "Brugerdefineret felt slettet."
 
 #. translators: %s: date and time of the revision
-#: kebbet-cpt-supporters.php:201
+#: kebbet-cpt-supporters.php:202
 #, php-format
 msgid "Supporter restored to revision from %s"
 msgstr ""
 
-#: kebbet-cpt-supporters.php:202
-msgid "Supporter published."
-msgstr ""
-
 #: kebbet-cpt-supporters.php:203
-msgid "Supporter saved."
-msgstr ""
+msgid "Supporter published."
+msgstr "Supporter udgivet."
 
 #: kebbet-cpt-supporters.php:204
+msgid "Supporter saved."
+msgstr "Supporter gemt."
+
+#: kebbet-cpt-supporters.php:205
 msgid "Supporter submitted."
-msgstr ""
+msgstr "Supporter indsendt."
 
 #. translators: %1$s: date and time of the scheduled post
-#: kebbet-cpt-supporters.php:207
+#: kebbet-cpt-supporters.php:208
 #, php-format
 msgid "Supporter scheduled for: <strong>%1$s</strong>."
 msgstr ""
 
-#: kebbet-cpt-supporters.php:208
+#: kebbet-cpt-supporters.php:209
 msgid "M j, Y @ G:i"
 msgstr ""
 
-#: kebbet-cpt-supporters.php:210
+#: kebbet-cpt-supporters.php:211
 msgid "Supporter draft updated."
 msgstr ""
 
-#: kebbet-cpt-supporters.php:218
+#: kebbet-cpt-supporters.php:219
 msgid "View Supporter"
-msgstr ""
+msgstr "Vis supporter"
 
-#: kebbet-cpt-supporters.php:224
+#: kebbet-cpt-supporters.php:225
 msgid "Preview Supporter"
-msgstr ""
+msgstr "Forhåndsvis supporter"
 
-#. translators: %$1s: singular of posts, %$2s: plural of posts.
-#: kebbet-cpt-supporters.php:250
-msgid "%$1s post updated."
-msgid_plural "%$2s posts updated."
-msgstr[0] ""
-msgstr[1] ""
+#. translators: %s: singular of posts, %$s: plural of posts.
+#: kebbet-cpt-supporters.php:251
+#, php-format
+msgid "%s post updated."
+msgid_plural "%s posts updated."
+msgstr[0] "%s indlæg opdateret."
+msgstr[1] "%s indlæg opdateret."
 
-#. translators: %$1s: singular of posts, %$2s: plural of posts.
-#: kebbet-cpt-supporters.php:252
-msgid "%$1s post not updated, somebody is editing it."
-msgid_plural "%$2s posts not updated, somebody is editing them."
-msgstr[0] ""
-msgstr[1] ""
+#. translators: %s: singular of posts, %$s: plural of posts.
+#: kebbet-cpt-supporters.php:253
+#, php-format
+msgid "%s post not updated, somebody is editing it."
+msgid_plural "%s posts not updated, somebody is editing them."
+msgstr[0] "%s indlæg ikke opdateret, nogen redigerer det."
+msgstr[1] "%s indlæg ikke opdateret, nogen redigerer dem."
 
-#. translators: %$1s: singular of posts, %$2s: plural of posts.
-#: kebbet-cpt-supporters.php:254
-msgid "%$1s post permanently deleted."
-msgid_plural "%$2s posts permanently deleted."
-msgstr[0] ""
-msgstr[1] ""
+#. translators: %s: singular of posts, %$s: plural of posts.
+#: kebbet-cpt-supporters.php:255
+#, php-format
+msgid "%s post permanently deleted."
+msgid_plural "%s posts permanently deleted."
+msgstr[0] "%s indlæg slettet permanent."
+msgstr[1] "%s indlæg slettet permanent."
 
-#. translators: %$1s: singular of posts, %$2s: plural of posts.
-#: kebbet-cpt-supporters.php:256
-msgid "%$1s post moved to the Trash."
-msgid_plural "%$2s posts moved to the Trash."
-msgstr[0] ""
-msgstr[1] ""
+#. translators: %s: singular of posts, %$s: plural of posts.
+#: kebbet-cpt-supporters.php:257
+#, php-format
+msgid "%s post moved to the Trash."
+msgid_plural "%s posts moved to the Trash."
+msgstr[0] "%s indlæg flyttet til papirkurven."
+msgstr[1] "%s indlæg flyttet til papirkurven."
 
-#. translators: %$1s: singular of posts, %$2s: plural of posts.
-#: kebbet-cpt-supporters.php:258
-msgid "%$1s post restored from the Trash."
-msgid_plural "%$2s posts restored from the Trash."
-msgstr[0] ""
-msgstr[1] ""
+#. translators: %s: singular of posts, %$s: plural of posts.
+#: kebbet-cpt-supporters.php:259
+#, php-format
+msgid "%s post restored from the Trash."
+msgid_plural "%s posts restored from the Trash."
+msgstr[0] "%s indlæg gendannet fra papirkurven."
+msgstr[1] "%s indlæg gendannet fra papirkurven."
 
-#: kebbet-cpt-supporters.php:282
+#: kebbet-cpt-supporters.php:283
 msgid "Supporters archive settings"
 msgstr ""
 
-#: kebbet-cpt-supporters.php:283
+#: kebbet-cpt-supporters.php:284
 msgid "Archive settings for Supporters"
 msgstr ""
 
